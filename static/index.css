@@ -1,0 +1,210 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+div.back {
+  background-image: url("/static/picture/1.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.back div.title {
+  margin-top: 150px;
+  font-size: 50px;
+}
+
+div.back div.search {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.back div.search input {
+  height: 50px;
+  width: 60vw;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  padding: 5px 20px;
+  font-size: 30px;
+}
+
+div.back div.search input:focus {
+  outline: none;
+}
+
+div.back div.search img {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+div.back div.syno {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+div.back div.syno input {
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+div.back div.result {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90vw;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+div.back div.result div.keyword {
+  background-color: rgba(217, 213, 213, 0.7);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30%;
+}
+
+div.back div.result div.keyword div.keyword1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 30px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+div.back div.result div.keyword div.keyword2 {
+  width: 100%;
+}
+
+div.back div.result div.keyword div.keyword2 div.keyword-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+div.back div.result div.keyword div.keyword2 div.keyword-answer {
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+div.back div.result div.brand {
+  background-color: rgba(217, 213, 213, 0.7);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30%;
+}
+
+div.back div.result div.brand div.brand1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 30px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+div.back div.result div.brand div.brand2 {
+  width: 100%;
+}
+
+div.back div.result div.brand div.brand2 div.brand-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+div.back div.result div.brand div.brand2 div.brand-answer {
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+div.back div.result div.custom {
+  background-color: rgba(217, 213, 213, 0.7);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30%;
+}
+
+div.back div.result div.custom div.custom1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 30px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+div.back div.result div.custom img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=index.css.map */
